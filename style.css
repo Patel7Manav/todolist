@@ -1,0 +1,44 @@
+body {
+  background: #05013fe1;
+}
+.container {
+  max-width: 400px;
+}
+.search i {
+  position: absolute;
+}
+.search {
+  position: relative;
+}
+.icon {
+  padding: 10px;
+  left: 0;
+}
+.input-field {
+  text-align: center;
+}
+.list-group{
+  color: rgb(124, 224, 9) ;
+}
+.mb-4:hover{
+  color: rgb(231, 35, 35);
+  cursor: pointer ;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: rgb(250, 242, 242);
+  border: none;
+  background: rgba(196, 146, 146, 0.3);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+}
+.delete {
+  cursor: pointer;
+}
+
+
+.filtered{
+  display: none !important;
+}
